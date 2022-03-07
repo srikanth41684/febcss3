@@ -1,0 +1,137 @@
+body{
+    background-color: gray;
+}
+
+.greeting-container{
+    border: 10px solid red;
+    width: 450px;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color:maroon;
+    font-style: italic;
+    font-weight: bold;
+    background-color: white;
+    text-shadow: 2px 2px 2px brown;
+    border-radius: 10px;
+    position: relative;
+    left: 500px;
+    box-shadow: 8px 8px 3px darkmagenta;
+}
+
+.middle-main-container{
+    border: 7px solid green;
+    height: 830px;
+    position: relative;
+}
+
+.box{
+    border: 7px solid red;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 6px 6px 3px darkmagenta;
+    font-size: 25px;
+    color: rgb(39, 2, 2);
+    text-shadow: 2px 2px 2px brown;
+    font-weight: bold;
+    text-align: center;
+}
+
+.left-top{
+    position: absolute;
+}
+
+.right-top{
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    background-image: url(./OIP\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* padding-top: 30px;
+    box-sizing: border-box; */
+}
+
+.left-bottom{
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+
+.right-bottom{
+    position: absolute;
+    top: 500px;
+    right: 100px;
+}
+
+.right-bottom button{
+    border-radius: 20px;
+    background-color: red;
+}
+
+.offer-container{
+    border: 8px solid red;
+    z-index: 3;
+    width: 45%;
+    /* margin-left: 330px;
+    margin-top: 300px; */
+    position: fixed;
+    left: 350px;
+    top: 550px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: yellowgreen;
+    font-style: italic;
+    color: red;
+    text-shadow: 1px 1px 1px brown;
+    border-radius: 20px;
+}
+
+.offers{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.discunt{
+    font-size: 20px;
+}
+
+.bottom-main-container{
+    border: 5px solid darkmagenta;
+    background-color: rgb(68, 209, 68);
+    width: 55%;
+    position: relative;
+    left: 300px;
+    height: 600px;
+    text-align: center;
+}
+
+.bottom-main-containe, h1{
+    color: blue;
+}
+
+.fruits, .vegtables, .other-items{
+    background-color: darkkhaki;
+    font-style: italic;
+}
+
+.fruits{
+    width: 49%;
+    position: absolute;
+}
+
+.vegtables{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 49%;
+}
+
+.other-items{
+    position: absolute;
+    top: 350px;
+    width: 100%;
+}
